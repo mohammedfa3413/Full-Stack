@@ -27,8 +27,7 @@ function App() {
       {
       data.map((data,index)=> (
         <div key={index}>
-        <p>{data.firstName}</p>
-        <p>{data.lastName}</p>
+        <p>FirstName : {data.firstName}-----LastName : {data.lastName}  </p>
         </div>
       ))
     }
